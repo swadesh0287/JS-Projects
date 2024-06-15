@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .project {
+    text-align: center;
+  }
+  
+  #insert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .key {
+    background-color: #444;
+    border: 2px solid #555;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    display: inline-block;
+  }
+  
+  .key small {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
